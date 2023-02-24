@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sidebar{
+    background-color:rgb(155, 151, 151);
+    width: 17vw;
+}
+
+.sidebar nav{
+    padding: 20px;
+    padding-left: 36px;
+    padding-top: 54px;
+    height: 100vh;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px  0px;
+    margin-left: -19px;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: rgb(197, 221, 148);
+    width: 83vw;
+    
+    
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+   /* background-color: aqua;*/
+    height: 72vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 162px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.devinfo{
+background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.devpic img{
+    height: 72vh;
+    width: 17vw;
+    
+    
+    
+    
+}
+
+.info{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.name{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.about{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.btn{
+    margin: 15px;
+}
+
+.button{
+    margin: 8px;
+    padding: 7px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    background-color: rgba(0, 187, 187, 0.651);
+    color: white;
+}
+.halfinfo{
+    background-color: blue;
+    margin: -38px;
+}
+
+.button:hover{
+    
+    background-color: rgb(62, 62, 236);
+    
+}
